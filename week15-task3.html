@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3</title>
+</head>
+
+<body>
+    <script src="week15-task3.js"></script>
+    <div class="container">
+
+        <p>Choose background color from the dropdown list</p>
+        <select name="colors" id="select" onChange="document.bgColor=this.options[this.selectedIndex].value">
+            <option value="white">White</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="gray">Gray</option>
+        </select>
+
+        <p>Or choose a background color by clicking on the button </p>
+        <button value="white" onclick="changeBodyBg('white');">White</button>
+        <button value="green" onclick="changeBodyBg('green');">Green</button>
+        <button value="blue" onclick="changeBodyBg('blue');">Blue</button>
+
+        <h1>Its my website</h1>
+
+    </div>
+</body>
+
+</html>
